@@ -37,7 +37,7 @@ namespace NuGetCourse
             stopWatch.Stop();
             var conDisTicks = stopWatch.ElapsedTicks;
 
-            Console.WriteLine($"Union: {unionTicks}");
+            Console.WriteLine($"xUnion: {unionTicks}");
             Console.WriteLine($"Concat: {concatTicks}");
             Console.WriteLine($"ConDist: {conDisTicks}");
         }
